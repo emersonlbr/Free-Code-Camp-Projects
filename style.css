@@ -1,6 +1,33 @@
 html {
-  max-width: 700px;
-  width: 80%;
-  margin: 20px auto;
-  background-color: grey;
+/*    max-width: 700px;*/
+/*    width: 100%;*/
+/*    margin:auto 20px;*/
 }
+
+.well {
+    margin-top: 20px;
+}
+
+img {
+    height: 80%;
+    width: 80%;
+    align-content: center;
+}
+
+.steve {
+    background-color: white;
+}
+
+p {
+    padding-top: 20px;
+}
+
+li {
+    display: block;
+}
+
+q {
+    font-size: 20px;
+    font-weight: 200;
+}
+
