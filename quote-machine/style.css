@@ -1,0 +1,50 @@
+body {
+  background-color: steelblue;
+  font-family: sans-serif;;
+  font-weight: 100;  
+}
+
+.quote {
+  font-size: 1.8rem;
+}
+
+.row {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 1px 10px 10px 20px;
+  border-radius: 10px;
+}
+
+.author {
+  font-size: 18px;
+  /*padding: 1em 1em;*/
+  /*margin-left: 645px;*/
+  padding-bottom: 20px;
+}
+
+.quote {
+  text-align: justify;
+  padding: 10px 12px 10px 10px;
+}
+
+.new-quote {
+  font-size: 14px;
+  padding: 0.6em 0.8em;
+  margin-left: 652px;
+  background-color: rgb(115, 233, 134);
+  outline: none;
+  text-transform: uppercase;
+}
+
+.new-quote:hover {
+  background-color: rgb(39, 193, 82);
+  text-decoration: none;
+  outline: none;
+}
+
+.ion-social-twitter {
+  color: #0084b4;
+  font-size: 1.5em;
+}
