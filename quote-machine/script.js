@@ -22,7 +22,7 @@ btn.addEventListener("click", function(){
 $(document).ready(function() {
   
   $(btn).on("click", function(){
-    let api = "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
+    let api = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
       $.getJSON(api, function(json) {
           $(quote).html(json.quoteText);
           $(author).html(`- ${json.quoteAuthor}`);
