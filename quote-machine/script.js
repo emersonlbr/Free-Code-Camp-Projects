@@ -28,7 +28,7 @@ $(document).ready(function() {
           $(author).html(`- ${json.quoteAuthor}`);
           let qu = json.quoteText;
           let au = json.quoteAuthor;
-          let link = `http://twitter.com/share?text= ${qu} - ${au} &url=http://url &hashtags=FCC`;
+          let link = `https://twitter.com/share?text= ${qu} - ${au} &url=http://url &hashtags=FCC`;
           document.getElementById("tweet").setAttribute("href", link);
           console.log(`${qu}- ${au}`);
         });
