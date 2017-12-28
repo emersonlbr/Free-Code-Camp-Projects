@@ -1,0 +1,58 @@
+* {
+	font-weight: 100;
+}
+
+ul {
+	padding: 0;
+}
+
+
+li {
+	list-style: none;
+	display: block;
+
+}
+
+.container {
+	align-content: center;
+	text-align: center;
+	max-width: 600px;
+	margin: 20px auto;
+	background: steelblue;
+	color: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+
+.all {
+	background: grey;
+}
+
+.online {
+	background: green;
+}
+
+.offline {
+	background: red;
+}
+
+
+button {
+	background: white;
+	padding: 5px 10px;
+	border: none;
+	text-transform: uppercase;
+	transition: .6s;
+}
+
+button:hover {
+	background: green;
+}
+
+button:active {
+	background: black;
+	color: white;
+}
+
+button:focus {outline: none;}
