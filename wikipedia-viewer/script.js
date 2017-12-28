@@ -7,8 +7,7 @@ const desc = document.querySelector(".description");
 const btn = document.querySelector(".btn");
 const wrap = document.querySelector(".wrap");
 // allow cors using heroku
-const cors = "https://cors-anywhere.herokuapp.com/"
-
+const cors = "https://cors-anywhere.herokuapp.com/";
 btn.onclick = () => {
 	const search = document.querySelector(".search").value;
 	console.log(search);
@@ -22,4 +21,4 @@ btn.onclick = () => {
 		<p class="description">${data.query.search[i].snippet}</p></div>`;
 		}
 	});
-}
+};
