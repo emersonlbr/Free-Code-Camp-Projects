@@ -1,5 +1,11 @@
 * {
 	font-weight: 100;
+	box-sizing:border-box;
+	margin: 0;
+}
+
+html {
+	background: steelblue;
 }
 
 ul {
@@ -17,7 +23,7 @@ li {
 	align-content: center;
 	text-align: center;
 	max-width: 600px;
-	margin: 20px auto;
+	margin: 0 auto;
 	background: steelblue;
 	color: white;
 	padding: 20px;
@@ -31,24 +37,30 @@ li {
 
 .online {
 	background: green;
+	/* display: none; */
 }
 
 .offline {
 	background: red;
+	/* display: none; */
+}
+
+.all-b {
+	background: grey;
 }
 
 
 button {
+	cursor: pointer;
 	background: white;
-	padding: 5px 10px;
+	padding: 10px 15px;
+	margin: 0 -2px 0 -2px;
+	display: inline-block;
 	border: none;
 	text-transform: uppercase;
-	transition: .6s;
+	/* transition: .6s; */
 }
 
-button:hover {
-	background: green;
-}
 
 button:active {
 	background: black;
@@ -56,3 +68,51 @@ button:active {
 }
 
 button:focus {outline: none;}
+
+.wrap {
+	max-width: 220px;
+	margin: 20px auto;
+}
+
+li {
+	/* padding-top: 20px; */
+	padding: 20px;
+}
+
+/* li:nth-child(1) {
+	padding-top: 0;
+} */
+
+.all li:nth-child(even) {
+	background: black;
+}
+
+/* .online li:nth-child(even + 1) {
+	background: rgb(222, 226, 223);
+	color: black;
+} */
+
+.offline li:nth-child(even) {
+	background: rgb(123, 21, 21);
+}
+
+.online div {
+	padding: 20px;
+}
+
+.online div p{
+	font-size: 10px;
+}
+
+
+
+.online div:nth-child(even) {
+	color: rgb(188, 165, 204);
+	background: rgb(16, 68, 29);
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
