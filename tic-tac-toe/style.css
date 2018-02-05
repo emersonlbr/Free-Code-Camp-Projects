@@ -8,16 +8,15 @@ body {
 .board {
   width: 360px;
   height: 360px;
-  /* background-color: rgb(196, 196, 196); */
   margin: auto;
-  display: grid;
+  /* display: grid; */
   grid-column: 3;
   grid-gap: 0;
-  /* padding-left: 10px; */
+  display: none;
 
 }
 
-.block-1, .block-2, .block-3 {
+.block {
   background-color: rgb(89, 0, 255);
   border: 2px solid #222;
   border-radius: 5%;
@@ -44,4 +43,26 @@ body {
 
 .part-3 {
   grid-column: 3;
+}
+
+button {
+  background: transparent;
+  padding: 5px 20px;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(14, 190, 58);
+  outline: none;
+  border: none;
+}
+
+h1, h2 {
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.reset {
+  color: red;
+  font-weight: 100;
+  size: 20px;
+  display: none;
 }
