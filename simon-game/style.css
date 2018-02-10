@@ -1,0 +1,15 @@
+* {
+  color: red;
+  background-color: #222;
+}
+
+.container {
+  background: rgb(27, 27, 27);
+}
+
+.ball {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
