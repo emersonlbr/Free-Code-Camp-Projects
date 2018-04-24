@@ -1,0 +1,46 @@
+Components Lifecicle 
+
+On Statefull Components
+
+  construtor(props)
+    super(props)
+
+  componentWillMount
+    update state last-minute optimization
+
+  render()
+    prepare and structure your JSX code
+    render child Components
+  
+  componentDidMount
+    cause side effects 
+    dont call setState
+
+// API's 
+  Random Cards
+  https://scryfall.com/docs/api/cards/random
+
+  http://deckofcardsapi.com/
+
+
+// Projects Ideas for Studying ReactJS
+  http://administrator-duck-64614.bitballoon.com/
+  https://i.imgur.com/RqiQA4t.png
+  Basically a super easy introduction to the fudndemtals of react of:
+
+    Components
+    Props
+    State (hit that heart button)
+    Stateless Components vs Class based Components
+    REUSEABLITY
+    learning how to simply get a react project up and running fron start to finish
+
+  Wheather App
+
+  Hacker Hunt
+    https://hackerhunt.co/api/daily/0
+
+  freeCodeCamp Projects
+  
+
+
