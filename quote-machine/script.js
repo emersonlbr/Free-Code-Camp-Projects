@@ -5,6 +5,7 @@ let allchar = "0123456789ABCDEF";
 let quote = document.querySelector(".quote");
 let author = document.querySelector(".author");
 
+
 btn.addEventListener("click", function(){
   // random color on click
   let  randcol= "";

@@ -48,3 +48,21 @@ body {
   color: #0084b4;
   font-size: 1.5em;
 }
+
+@media screen and (max-width: 500px) { 
+  .row {
+    width: auto;
+    margin-top: 0;
+    padding: 1px;
+
+  }
+
+  .quote {
+    padding: 0;
+  }
+
+  .new-quote {
+    margin-left: 70%;
+    margin-bottom: 20px;
+  }
+ }
