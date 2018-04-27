@@ -32,13 +32,13 @@ html {
 .temp {
     font-size: 50px;
     text-align: center;
-
+    padding-top: 12px;
 }
 
 .city {
     font-size: 30px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .main {

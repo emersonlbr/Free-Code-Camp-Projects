@@ -16,6 +16,30 @@ On Statefull Components
     cause side effects 
     dont call setState
 
+
+Component Lifecicle update triggered by Parent
+
+  componentWillRecieveProps(nextProps)
+    sync State to Props
+
+  shouldComponentUpdate(nextProps, nextState)
+    may cancel the updating process
+    decide where to continue the update or not 
+  
+  componentWillUpdate
+    Sync State to Props
+  
+  Render()
+    the result 
+  
+  Update child Component props
+
+  ComponentDidUpdate
+
+
+
+
+
 // API's 
   Random Cards
   https://scryfall.com/docs/api/cards/random
