@@ -1,0 +1,39 @@
+$main-color: rgb(236, 236, 236);
+$border: 1px solid rgb(56, 170, 52);
+$font: sans-serif;
+$font-weight: 100;
+
+body {
+  background-color: $main-color;
+  font-family: $font;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.App {
+
+  display: flex; 
+  .TextArea {
+    font-weight: $font-weight;
+    width: 50%;
+    height: 80vh;
+    margin: 20px;
+    border: $border;
+    font-size: 20px;
+    background-color: $main-color
+  }
+  
+  .Result {
+    color: rgb(72, 63, 155);
+    width: 50%;
+    font-weight: $font-weight;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: $font-weight;
+  }
+}
+
+

@@ -1,5 +1,23 @@
 body {
+  background-color: #ececec;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
+  box-sizing: border-box; }
+
+.App {
+  display: flex; }
+  .App .TextArea {
+    font-weight: 100;
+    width: 50%;
+    height: 80vh;
+    margin: 20px;
+    border: 1px solid #38aa34;
+    font-size: 20px;
+    background-color: #ececec; }
+  .App .Result {
+    color: #483f9b;
+    width: 50%;
+    font-weight: 100; }
+  .App h1, .App h2, .App h3, .App h4, .App h5, .App h6 {
+    font-weight: 100; }
