@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+}
+
+.TextArea {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  border: 2px solid red;
+  
+}
